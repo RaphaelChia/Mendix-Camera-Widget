@@ -9,7 +9,7 @@ Use the native camera without the use of Phonegap
 - under scripts section, add in  `"preinstall": "npx npm-force-resolutions"` so it'll look something like this
 ```json
 "scripts": {
-    //Your current package.json scripts
+    ...other scripts...
     "preinstall": "npx npm-force-resolutions"
 },
 ```
